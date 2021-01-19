@@ -2,3 +2,4 @@ node_modules
 .DS_*
 *.log
 logs
+package-lock.json
