@@ -22,7 +22,7 @@ h6 {
 }
 
 .app {
-  background: #cff2dc;
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -50,7 +50,7 @@ h6 {
   display: block;
   position: absolute;
   height: 2px;
-  background: #b2dec2;
+  background: #61899b;
   z-index: 1;
   top: 43px;
   left: -20%;
@@ -66,7 +66,7 @@ h6 {
   text-decoration: none;
   cursor: pointer;
   position: relative;
-  color: #7db491;
+  color: #3c697e;
 }
 
 .step-links a.disabled {
@@ -74,15 +74,15 @@ h6 {
 }
 
 .step-links a:hover {
-  color: #4d9869;
+  color: #61899b;
 }
 
 .step-links a.active {
-  color: #215735;
+  color: #214150;
 }
 
 .step-links a.active span {
-  background: #215735;
+  background: #214150;
 }
 
 /* the little circle */
@@ -93,7 +93,7 @@ h6 {
   height: 8px;
   width: 8px;
   border-radius: 50%;
-  background: #b2dec2;
+  background: #61899b;
   z-index: 2;
 }
 
@@ -110,7 +110,7 @@ form {
 }
 
 form p {
-  color: rgb(184, 109, 109);
+  color:#8a5f4c;
   margin-top: 8px;
   margin-bottom: 20px;
   padding-left: 8px;
@@ -142,12 +142,13 @@ input[type='submit'] {
   margin-left: 60%;
   margin-bottom: 0;
   padding: 12px;
-  background: #d68865;
+  background:#c9917a;
   font-size: 16px;
   color: #f9f6f4;
   cursor: pointer;
 }
 
 input[type='submit']:hover {
-  background: #eda27f;
+  background:#d3a897;
+
 }

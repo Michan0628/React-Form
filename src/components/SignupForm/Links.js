@@ -28,12 +28,12 @@ export default function Links() {
       </NavLink>
       )}
       
-      {isProfileEmpty || isSocialEmpty ? (<a>Review<span/></a>):
+      {isProfileEmpty || isSocialEmpty ? (<a>Review</a>):
           <NavLink to='/review'>
           Review
-          <span />
         </NavLink>
       }
+      
   
     </div>
   )
