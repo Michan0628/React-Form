@@ -9,3 +9,12 @@ View Demo - [Source Code](https://github.com/Michan0628/React-Form) - [My Blog](
 2. React Context
 3. React Animation: Framer Motion
 4. React Router 
+## How to start the app
+1. Install dependencies
+```shell
+npm install
+```
+2. Srart the app
+```shell
+npm start
+```
